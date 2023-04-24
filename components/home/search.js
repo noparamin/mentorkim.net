@@ -1,12 +1,12 @@
 import React from 'react'
 import Lottie from 'react-lottie-player'
-import lottieJson from '/public/animation.json'
+import search from '/public/search.json'
 
-export default function Animation() {
+export default function Search() {
   return (
     <Lottie
       loop
-      animationData={lottieJson}
+      animationData={search}
       play
     />
   )
