@@ -1,4 +1,4 @@
-const mentorInfo = require('./mentorInfo');
+const mentorInfo = require('../mentorInfo');
 
 export default function Infomation(props){
     let mentor = {};

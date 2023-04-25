@@ -1,4 +1,4 @@
-const mentorInfo = require('./mentorInfo');
+const mentorInfo = require('../mentorInfo');
 
 export default function Comment(props){
     let mentor = {};
@@ -20,7 +20,12 @@ export default function Comment(props){
                 </div>
                 <div class="py-8 flex flex-wrap md:flex-nowrap">
                     <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font">강명구 멘토님 너무 멋져요!!</h2>
+                    <h2 class="text-2xl font-medium text-gray-900 title-font">{name} 멘토님 너무 멋져요!!</h2>
+                    </div>
+                </div>
+                <div class="py-8 flex flex-wrap md:flex-nowrap">
+                    <div class="md:flex-grow">
+                    <h2 class="text-2xl font-medium text-gray-900 title-font">{name} 멘토님 덕분에 정말 좋은 마음가짐을 얻을 수 있었습니다! 항상 동기부여가 되어주셔서 감사합니다 ㅎㅎ</h2>
                     </div>
                 </div>
                 <div class="py-8 flex flex-wrap md:flex-nowrap">
@@ -30,12 +35,7 @@ export default function Comment(props){
                 </div>
                 <div class="py-8 flex flex-wrap md:flex-nowrap">
                     <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font">덕분에 TypeScript 마스터했습니다!! 명강 인정 ㅎㅎ</h2>
-                    </div>
-                </div>
-                <div class="py-8 flex flex-wrap md:flex-nowrap">
-                    <div class="md:flex-grow">
-                    <h2 class="text-2xl font-medium text-gray-900 title-font">썸원 아직도 잘 쓰고 있습니다!! 강명구 멘토님 파이팅!!</h2>
+                    <h2 class="text-2xl font-medium text-gray-900 title-font">덕분에 다양한 지식들을 습득할 수 있었습니다!! {name} 멘토님 명강 인정 ㅎㅎ</h2>
                     </div>
                 </div>
             </div>
