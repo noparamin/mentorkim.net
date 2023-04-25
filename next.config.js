@@ -1,5 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  basePath: "/{mentorkim.net}",
   reactStrictMode: true,
   webpack: (config) => {
     config.module.rules.push({
