@@ -9,7 +9,7 @@ export default function Mentorlist(){
                 </h1>
                 <p className="mb-8 leading-relaxed">SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요! SW마에스트로 최고의 멘토진께 좋은 한줄평 부탁드려요!</p>
                 <div className="flex justify-center">
-                    <Link href="/projects" legacyBehavior>
+                    <Link href="/mentordetail/1" legacyBehavior>
                         <a className="inline-flex text-white bg-teal-200 border-0 py-2 px-6 focus:outline-none hover:bg-teal-300 rounded text-lg">한줄평 쓰러가기</a>
                     </Link>
                 </div>

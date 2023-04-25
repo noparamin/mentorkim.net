@@ -15,7 +15,7 @@ export default function Mentorrating(){
                 </h1>
                 <p className="mb-8 leading-relaxed ">SW마에스트로 최고의 멘토진들을 구경하러 가볼까요? SW마에스트로 최고의 멘토진들을 구경하러 가볼까요? SW마에스트로 최고의 멘토진들을 구경하러 가볼까요? SW마에스트로 최고의 멘토진들을 구경하러 가볼까요? SW마에스트로 최고의 멘토진들을 구경하러 가볼까요? </p>
                 <div className="flex justify-center">
-                    <Link href="/projects" legacyBehavior>
+                    <Link href="/mentorlist" legacyBehavior>
                         <a className="inline-flex text-white bg-teal-200 border-0 py-2 px-6 focus:outline-none hover:bg-teal-300 rounded text-lg">멘토 보러가기</a>
                     </Link>
                 </div>
