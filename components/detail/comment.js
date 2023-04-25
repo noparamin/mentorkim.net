@@ -1,7 +1,16 @@
-export default function Comment(){
+const mentorInfo = require('./mentorInfo');
+
+export default function Comment(props){
+    let mentor = {};
+    let name = '';
+    if(props.id){
+        mentor = mentorInfo[props.id];
+        name = mentor.name;
+    }
+
     return (
         <section class="text-gray-600 body-font overflow-hidden">
-        <h2 class="text-black font-bold text-center text-5xl">강명구 멘토님의 한줄평</h2>
+        <h2 class="text-black font-bold text-center text-5xl">{name} 멘토님의 한줄평</h2>
         <div class="container px-5 py-24 mx-auto">
             <div class="-my-8 divide-y-2 divide-gray-100">
                 <div class="py-8 flex flex-wrap md:flex-nowrap">

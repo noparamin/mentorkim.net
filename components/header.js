@@ -28,7 +28,7 @@ export default function Header(){
                         <Link href='/mentorlist' legacyBehavior >
                             <a className="mr-5 text-xl hover:text-gray-900">멘토리스트</a>
                         </Link>
-                        <Link href='/mentordetail' legacyBehavior >
+                        <Link href='/mentordetail/1' legacyBehavior >
                             <a className="mr-5 text-xl hover:text-gray-900">한줄평</a>
                         </Link>
                     </nav>

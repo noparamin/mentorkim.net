@@ -6,7 +6,8 @@ import Mentorlist from '../components/home/mentorlist'
 import Mentorrating from '../components/home/mentorrating'
 
 
-export default function Home() {
+export default function Home({url}) {
+  console.log(url);
   return (
     <Layout>
       <Head>
