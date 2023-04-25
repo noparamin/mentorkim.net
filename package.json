@@ -1,4 +1,3 @@
-
 {
   "name": "mentorkim.net",
   "version": "0.1.0",
@@ -7,10 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "netlify-deploy"
+    "lint": "next lint"
   },
   "dependencies": {
+    "@netlify/plugin-nextjs": "^4.36.0",
     "@svgr/webpack": "^7.0.0",
     "autoprefixer": "10.4.14",
     "next": "13.3.1",
